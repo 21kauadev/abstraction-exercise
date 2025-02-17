@@ -2,8 +2,8 @@ package entities;
 
 public abstract class Person {
 
-    private String name;
-    private Double annualIncome;
+    protected String name;
+    protected Double annualIncome;
 
     public Person() {
     }
