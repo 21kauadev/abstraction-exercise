@@ -34,4 +34,5 @@ public class NaturalPerson extends Person {
 
         return this.annualIncome * 0.15;
     }
+
 }

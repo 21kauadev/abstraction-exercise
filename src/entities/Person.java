@@ -27,4 +27,8 @@ public abstract class Person {
 
     public abstract Double tax();
 
+    @Override
+    public String toString() {
+        return String.format("%s: $ %.2f", this.name, this.tax());
+    }
 }

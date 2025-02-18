@@ -28,4 +28,5 @@ public class LegalPerson extends Person {
 
         return this.annualIncome * 0.16;
     }
+
 }
